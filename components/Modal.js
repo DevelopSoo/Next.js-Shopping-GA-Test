@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import styles from "./Modal.module.css";
+import Link from "next/link";
 
 export default function Modal({ setOpenModal, id }) {
   const [number, setNumber] = useState(1);
@@ -38,12 +39,9 @@ export default function Modal({ setOpenModal, id }) {
               +
             </button>
           </div>
-          <button
-            onClick={() => alert("계산 완료!!")}
-            className={styles.payBtn}
-          >
-            Pay
-          </button>
+          <Link href="/pay-done">
+            <button className={styles.payBtn}>Pay</button>
+          </Link>
         </div>
       </div>
     </div>
