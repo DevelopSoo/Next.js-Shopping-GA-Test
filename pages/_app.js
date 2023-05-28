@@ -13,6 +13,7 @@ export default function App({ Component, pageProps }) {
       router.events.off("routeChangeComplete", pageview);
     };
   }, [router.events]);
+
   // useEffect(() => {
   //   const handleRouteChange = (url) => {
   //     gtag.pageview(url);
