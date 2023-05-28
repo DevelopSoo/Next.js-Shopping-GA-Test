@@ -1,0 +1,93 @@
+.modalContent {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+  height: 760px;
+  z-index: 1;
+  border: 1px solid black;
+  background-color: white;
+}
+
+.modalHeader {
+  padding: 12px;
+  color: darkgrey;
+  border-bottom: 1px solid darkgray;
+}
+.closeBtn {
+  border: none;
+  background-color: white;
+  float: right;
+  cursor: pointer;
+}
+
+.item {
+  margin: auto;
+  width: 380px;
+  height: 600px;
+}
+
+.itemImg {
+  margin-top: 42px;
+  width: 100%;
+  height: 75%;
+}
+
+.itemText {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.name {
+  font-size: large;
+  font-weight: bold;
+}
+
+.price {
+  font-size: 14px;
+  margin: 2px;
+}
+
+.countBtns {
+  margin: 12px 4px;
+}
+
+.countBtn {
+  padding: 8px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  border: 2px solid #e7e7e7;
+}
+
+.countBtn:hover {
+  background-color: #e7e7e7;
+}
+
+.countNumber {
+  margin: 12px;
+}
+
+.payBtn {
+  width: 100%;
+  padding: 12px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 12px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  background-color: dodgerblue;
+  color: black;
+  border: none;
+}
+
+.payBtn:hover {
+  background-color: blue;
+}
